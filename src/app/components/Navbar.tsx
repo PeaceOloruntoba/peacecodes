@@ -1,4 +1,3 @@
-import About from "./About";
 
 export default function Navbar() {
     return(
@@ -10,7 +9,6 @@ export default function Navbar() {
                 <li>Peace</li>
                 <li>Peace</li>
             </ul>
-            <About />
         </div>
     )
 }
