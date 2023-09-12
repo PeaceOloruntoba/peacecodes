@@ -9,14 +9,14 @@ export default function Navbar() {
   return (
         <div>
             <Header />
-    <div className="flex items-center justify-around py-4 bg-slate-300 px-14 dark: dark:bg-gray-950">
+    <div className="flex items-center justify-around py-4 bg-slate-300 px-32 dark: dark:bg-gray-950">
 
         <div>
             Logo
         </div>
-    <div className="px-4 bg-slate-200 shadow shadow-gray-400 rounded-l-full rounded-r-full p-1 dark:bg-slate-950">
+    <div className="bg-slate-200 shadow shadow-gray-400 rounded-l-full rounded-r-full p-1 dark:bg-slate-950">
       <ul className="flex flex-wrap text-md font-medium text-center text-slate-800 dark:text-zinc-300">
-        <li className="mr-2">
+        <li className="mx-2">
           <Link href="/" className={`inline-block px-4 py-2 ${ pathname === "/" ? "text-[#001aff]" : "text-slate-800 dark:text-zinc-300 hover:text-blue-600 ease-in duration-300" }`} > Home</Link>
         </li>
         <li className="mr-2">
