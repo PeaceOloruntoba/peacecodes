@@ -8,10 +8,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Skills() {
     return(
         <>
+        <div className={inter.className}>
         <div className="text-slate-800">
             <Navbar />
             <p className="text-5xl text-center">Skill and Expertise</p>
             <Footer />
+        </div>
         </div>
         </>
     )
