@@ -13,7 +13,7 @@ export default function About() {
         <div className={inter.className}>
         <div className="text-slate-800 dark:text-zinc-300 bg-slate-200 dark:bg-slate-950">
             <Navbar />
-            <p className="text-5xl text-center">About</p>
+            <p className="text-5xl text-center">About Me:</p>
             <AboutIntro />
             <Footer />
         </div>

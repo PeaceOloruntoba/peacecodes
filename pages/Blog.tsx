@@ -11,7 +11,7 @@ export default function Blog() {
         <div className={inter.className}>
         <div className="text-slate-800">
             <Navbar />
-            <p className="text-5xl text-center">Blog</p>
+            <p className="text-5xl text-center">My Blog:</p>
             <Footer />
         </div>
         </div>
