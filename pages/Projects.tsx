@@ -11,7 +11,7 @@ export default function Projects() {
         <div className={inter.className}>
         <div className="text-slate-800">
             <Navbar />
-            <p className="text-5xl text-center">Project</p>
+            <p className="text-5xl text-center">My Projects:</p>
             <Footer />
         </div>
         </div>
