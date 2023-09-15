@@ -11,7 +11,7 @@ export default function Contact() {
         <div className={inter.className}>
         <div className="text-slate-800">
             <Navbar />
-            <p className="text-5xl text-center">Contact</p>
+            <p className="text-5xl text-center">Contact Me:</p>
             <Footer />
         </div>
         </div>
