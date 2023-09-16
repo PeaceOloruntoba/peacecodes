@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from "../assets/2021me.jpg"
+import me from "../../assets/2021me.jpg"
 
 export default function SkillsIntro() {
     return(
