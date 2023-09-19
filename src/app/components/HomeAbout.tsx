@@ -10,7 +10,7 @@ export default function HomeAbout() {
             <h2 className="text-4xl font-semibold text-slate-800 dark:text-zinc-300">I am just me!</h2>
             </div>
         <div className="">
-            <p className="text-xl font-semibold text-slate-800 dark:text-zinc-300 mb-8">I am a dedicated Computer Science student at Anchor University, Lagos, Nigeria, on a mission to transform my passion for technology into innovative solutions. As an aspiring Software Engineer, I've honed my skills over the past two years and am proficient in web development, while also venturing into the exciting world of mobile development... <a href="/About" className="text-purple-500">Learn More</a></p>
+            <p className="text-xl font-semibold text-slate-800 dark:text-zinc-300 mb-8">I am a Computer Science student at Anchor University, Lagos, Nigeria, on a mission to transform my passion for technology into innovative solutions. As an aspiring Software Engineer, I've honed my skills over the past two years and am proficient in web development, while also venturing into the exciting world of mobile development... <a href="/About" className="text-purple-500">Learn More</a></p>
         </div>
             </div>
             <div className="flex items-center justify-center px-16">
