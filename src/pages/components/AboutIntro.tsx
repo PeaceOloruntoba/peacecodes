@@ -1,11 +1,10 @@
 import Image from "next/image";
-import me from "../../src/app/assets/2021me.jpg"
+import me from "../../app/assets/2021me.jpg"
 
-export default function ContactIntro() {
+export default function AboutIntro() {
     return(
         <div className="flex justify-around items-center px-36 dark:bg-gray-950">
             <div className="p-16 flex gap-5 bg-slate-200 dark:bg-slate-950 rounded-xl">
-            <p className="text-5xl text-center">Contact Me:</p>
             <div className="">
                 <h1 className="text-4xl font-bold text-slate-800 dark:text-zinc-300">PEACE OLORUNTOBA</h1>
                 <h2 className="text-3xl font-semibold text-slate-800 dark:text-zinc-300 ">Full-Stack Software Engineer</h2>
