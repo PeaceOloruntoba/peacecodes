@@ -20,8 +20,8 @@ export default function AboutIntro() {
             <div className="flex items-center justify-center px-16">
             <hr className="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 h-1"/>
             </div>
-            <div>
-                Experience:
+            <div className="p-16 grid gap-5 items-center justify-center">
+                Experience: 
             </div>
         </div>
         </div>
