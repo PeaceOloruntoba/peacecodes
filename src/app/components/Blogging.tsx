@@ -11,8 +11,8 @@ export default function Blogging () {
             <h2 className="text-4xl font-semibold text-slate-800 dark:text-zinc-300">Blogs:</h2>
             </div>
         <div className="shadow p-2">
-        <div>
-        <Image src={about} alt="Jumbotron" className="rounded-xl" />
+        <div className="border">
+        <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
         <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur,</span>
         </div>
 
