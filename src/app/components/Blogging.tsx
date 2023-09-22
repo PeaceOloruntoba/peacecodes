@@ -13,7 +13,7 @@ export default function Blogging () {
         <div className="shadow p-2">
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
-        <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur,</span>
+        <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <Link href="">Learn More...</Link> </span>
         </div>
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
