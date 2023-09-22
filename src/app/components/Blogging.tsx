@@ -17,7 +17,7 @@ export default function Blogging () {
         </div>
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
-        <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <Link href="" className="text-purple-500">Learn More...</Link></span>
+        <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
