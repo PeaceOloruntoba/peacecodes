@@ -13,15 +13,15 @@ export default function Blogging () {
         <div className="shadow p-2 flex gap-5">
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
-        <span>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, <Link href="/" className="text-purple-500">Learn More...</Link></span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
-        <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <Link href="/" className="text-purple-500">Learn More...</Link></span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
-        <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <Link href="/" className="text-purple-500">Learn More...</Link></span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
 
         </div>
