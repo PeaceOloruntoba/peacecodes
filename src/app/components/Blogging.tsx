@@ -10,10 +10,10 @@ export default function Blogging () {
             {/* <Image src={about} alt="Jumbotron" className="rounded-xl" /> */}
             <h2 className="text-4xl font-semibold text-slate-800 dark:text-zinc-300">Blogs:</h2>
             </div>
-        <div className="shadow p-2">
+        <div className="shadow p-2 flex gap-5">
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
-        <span>Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <br /> Lorem ipsum dolor sit amet consectetur, <Link href="/" className="text-purple-500">Learn More...</Link></span>
+        <span>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
         <div className="border p-4">
         <Image src={about} alt="Jumbotron" className="rounded-xl w-full" />
