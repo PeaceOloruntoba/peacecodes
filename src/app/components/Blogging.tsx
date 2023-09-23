@@ -19,20 +19,22 @@ export default function Blogging () {
         </div>
         <div className="border rounded-xl m-4">
         <Image src={about} alt="Jumbotron" className="rounded-t-xl w-full" />
-        <div>
+        <div className="p-5">
         <span className="font-semibold text-slate-800 dark:text-zinc-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
         </div>
         <div className="border rounded-xl m-4">
         <Image src={about} alt="Jumbotron" className="rounded-t-xl w-full" />
-        <div>
+        <div className="p-5">
         <span className="font-semibold text-slate-800 dark:text-zinc-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
         </div>
 
         </div>
         <div className="flex items-center justify-center">
+            <Link href="/Blog">
             <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold p-4 text-xl px-10 rounded-lg">More &gt;&gt;</button>
+            </Link>
         </div>
             </div>
             <div className="flex items-center justify-center px-16">
