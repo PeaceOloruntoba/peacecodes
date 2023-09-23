@@ -15,7 +15,7 @@ export default function Blogging () {
         <Image src={about} alt="Jumbotron" className="rounded-t-xl w-full" />
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
-        <div className="border p-4">
+        <div className="border rounded-xl">
         <Image src={about} alt="Jumbotron" className="rounded-t-xl w-full" />
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
