@@ -20,7 +20,7 @@ export default function Blogging () {
         <div className="border rounded-xl m-4">
         <Image src={about} alt="Jumbotron" className="rounded-t-xl w-full" />
         <div>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
+        <span className="font-semibold text-slate-800 dark:text-zinc-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nostrum corrupti, odio esse excepturi delectus est. Ut voluptatum veritatis numquam. Est fugiat quae ex, atque minima sint consequatur commodi? <Link href="/" className="text-purple-500">Learn More...</Link></span>
         </div>
         </div>
         <div className="border rounded-xl m-4">
