@@ -25,6 +25,9 @@ export default function Blogging () {
         </div>
 
         </div>
+        <div>
+            <button>More&gt;&gt;</button>
+        </div>
             </div>
             <div className="flex items-center justify-center px-16">
             <hr className="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 h-1"/>
