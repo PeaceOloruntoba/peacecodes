@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../../app/assets/logo.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Navbar() {
 
@@ -14,10 +15,17 @@ export default function Navbar() {
 
     return(
         <div>
-            <nav className="fixed top-0 left-0 right-0 bg-gray-600 py-4 z-10">
-      <div className="container mx-auto flex justify-between items-center">
-        
-      </div>
+            <nav className="flex ">
+        <Image src={logo} alt="Logo Icon" />
+              <div>
+
+        <ul>
+          <Link href="/"><li>About</li></Link>
+          <Link href="/"><li>How it works</li></Link>
+          <Link href="/"><button>Get Started</button></Link>
+          
+        </ul>
+              </div>
     </nav>
         </div>
     )
