@@ -19,10 +19,10 @@ export default function Navbar() {
         <Image src={logo} alt="Logo Icon" />
               <div>
 
-        <ul className='flex gap-5 p-4'>
+        <ul className='flex gap-5 p-4 justify-center items-center'>
           <Link href="/"><li className='text-white hover:text-slate-900'>About</li></Link>
-          <Link href="/"><li>How it works</li></Link>
-          <Link href="/"><button className='rounded'>Get Started</button></Link>
+          <Link href="/"><li className='text-white hover:text-slate-900'>How it works</li></Link>
+          <Link href="/"><button className='rounded bg-slate-900 text-white p-4 px-12 hover:bg-slate-600 hover:border'>Get Started</button></Link>
           
         </ul>
               </div>
