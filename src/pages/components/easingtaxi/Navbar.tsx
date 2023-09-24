@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
+import logo from '../assets/logo.png';
+import Image from 'next/image';
 
 export default function Navbar() {
 
-    
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
-
   const closeSidebar = () => {
     setIsOpen(false);
   };
@@ -18,7 +17,7 @@ export default function Navbar() {
             <nav className="fixed top-0 left-0 right-0 bg-gray-600 py-4 z-10">
       <div className="container mx-auto flex justify-between items-center">
         <a href="/">
-          <img src={logo} alt="Company Logo" className="h-10" />
+          <Image src={logo} alt="Company Logo" className="h-10" />
         </a>
         <div className="lg:hidden">
           <button className="text-gray-800 hover:text-gray-500 focus:outline-none" onClick={toggleSidebar}>
