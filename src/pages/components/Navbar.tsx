@@ -15,14 +15,14 @@ export default function Navbar() {
 
     return(
         <div>
-            <nav className="flex ">
+            <nav className="flex bg-gray-600">
         <Image src={logo} alt="Logo Icon" />
               <div>
 
-        <ul>
-          <Link href="/"><li>About</li></Link>
+        <ul className='flex gap-5 p-4'>
+          <Link href="/"><li className='text-white hover:text-slate-900'>About</li></Link>
           <Link href="/"><li>How it works</li></Link>
-          <Link href="/"><button>Get Started</button></Link>
+          <Link href="/"><button className='rounded'>Get Started</button></Link>
           
         </ul>
               </div>
