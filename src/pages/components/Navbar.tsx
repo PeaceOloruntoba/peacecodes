@@ -15,15 +15,13 @@ export default function Navbar() {
 
     return(
         <div>
-            <nav className="flex bg-gray-600 p-2">
+            <nav className="flex bg-gradient-to-r from-blue-500 via-pink-500 to-red-500 p-2 justify-between items-center">
         <Image src={logo} alt="Logo Icon" className='h-32 w-32 rounded' />
               <div>
-
-        <ul className='flex gap-5 p-4 justify-center items-center'>
-          <Link href="/"><li className='text-white hover:text-slate-900'>About</li></Link>
-          <Link href="/"><li className='text-white hover:text-slate-900'>How it works</li></Link>
-          <Link href="/"><button className='rounded bg-slate-900 text-white p-4 px-12 hover:bg-slate-600 hover:border'>Get Started</button></Link>
-          
+        <ul className='flex gap-5 p-4 justify-center items-center font-semibold text-xl'>
+          <Link href="/"><li className='text-blue-200 hover:text-blue-900 ease-in-out duration-300'>About</li></Link>
+          <Link href="/"><li className='text-blue-200 hover:text-blue-900 ease-in-out duration-300'>How it works</li></Link>
+          <Link href="/"><button className='rounded bg-blue-800 text-blue-100 p-4 px-12 hover:bg-blue-900 ease-in-out duration-300'>Get Started</button></Link>
         </ul>
               </div>
     </nav>
