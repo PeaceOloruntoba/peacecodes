@@ -15,7 +15,7 @@ export default function Navbar() {
 
     return(
         <div>
-            <nav className="flex bg-gradient-to-r from-blue-500 via-pink-500 to-red-500 p-2 justify-between items-center">
+            <nav className="flex p-2 justify-between items-center border-b-4  rounded-t mb-2">
         <Image src={logo} alt="Logo Icon" className='h-32 w-32 rounded' />
               <div>
         <ul className='flex gap-5 p-4 justify-center items-center font-semibold text-xl'>

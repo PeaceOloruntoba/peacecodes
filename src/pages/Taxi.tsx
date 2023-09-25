@@ -4,8 +4,9 @@ import "../app/globals.css"
 export default function Taxi() {
     return(
         <>
-        <div>
+        <div className=" bg-gradient-to-r from-blue-500 via-pink-500 to-red-500">
             <Navbar />
+            Wanna see how thid looks
         </div>
         </>
     )
