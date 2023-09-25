@@ -15,8 +15,8 @@ export default function Navbar() {
 
     return(
         <div>
-            <nav className="flex bg-gray-600">
-        <Image src={logo} alt="Logo Icon" />
+            <nav className="flex bg-gray-600 p-2">
+        <Image src={logo} alt="Logo Icon" className='h-32 w-32 rounded' />
               <div>
 
         <ul className='flex gap-5 p-4 justify-center items-center'>
