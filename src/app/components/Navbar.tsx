@@ -1,10 +1,9 @@
 "use client"
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Header from "./Header";
 
 export default function Navbar() {
-    const router = useRouter();
     const pathname = usePathname();
   return (
         <div>
