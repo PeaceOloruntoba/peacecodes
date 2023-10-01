@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function HomeAbout() {
     return(
         <div>
-        <div className="p-16 grid gap-5 items-center justify-center">
+        <div className="p-16 px-10 grid gap-5 items-center justify-center">
             <div className="hidden lg:block">
             <div className="flex gap-5 items-center justify-center">
             <Image src={about} alt="Jumbotron" className="rounded-xl" />

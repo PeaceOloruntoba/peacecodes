@@ -4,7 +4,7 @@ import me from "../assets/me.jpg"
 export default function Jumbotron() {
     return(
         <div>
-            <div className="p-16 flex gap-5 items-center">
+            <div className="p-16 px-10 flex gap-5 items-center">
             <div className="">
                 <span className="text-6xl font-bold text-slate-800 dark:text-zinc-300">Hi 👋, I&apos;m</span>
                 <h1 className="text-5xl font-bold text-blue-600 mt-8 mb-4">Peace Oloruntoba</h1>
