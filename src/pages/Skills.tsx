@@ -10,7 +10,7 @@ export default function Skills() {
     return(
         <>
         <div className={inter.className}>
-        <div className="text-slate-800">
+        <div className="">
             <Navbar />
             <SkillsIntro />
             <Footer />
