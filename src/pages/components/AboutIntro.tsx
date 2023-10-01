@@ -4,9 +4,9 @@ import about from "../../app/assets/aboutme.jpeg"
 
 export default function AboutIntro() {
     return(
-        <div className="flex justify-around items-center px-36 dark:bg-gray-950">
+        <div className="flex justify-around items-center lg:px-20 md:px-12 sm:px-6 dark:bg-gray-950">
             <div className="bg-slate-200 dark:bg-slate-950 rounded-xl">
-           <div className="p-16 grid gap-5 items-center justify-center">
+           <div className="p-16 px-10 grid gap-5 items-center justify-center">
             <div className="grid gap-5 items-center justify-center text-center">
             <h2 className="text-4xl font-semibold text-slate-800 dark:text-zinc-300">About me:</h2>
             <Image src={about} alt="Jumbotron" className="rounded-xl w-96" />
@@ -20,7 +20,7 @@ export default function AboutIntro() {
             <div className="flex items-center justify-center px-16">
             <hr className="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 h-1"/>
             </div>
-            <div className="p-16 grid gap-5 items-center justify-center">
+            <div className="p-16 grid gap-5 items-center justify-center px-10">
                 Experience: 
             </div>
         </div>
