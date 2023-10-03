@@ -3,12 +3,12 @@ import Lang from "./Lang";
 const cardData = [
     {
       title: "HTML",
-      content: "CEO at Google",
+      content: "<>The skeleton of web dev</>",
       image: "/assets/me.jpg",
     },
     {
       title: "CSS",
-      content: "CEO at Google",
+      content: "Cascading Styling Sheet",
       image: "/assets/me.jpg",
     },
     {
