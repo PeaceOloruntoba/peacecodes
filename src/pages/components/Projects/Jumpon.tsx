@@ -4,17 +4,17 @@ const cardData = [
     {
       title: "HTML",
       content: "<>The skeleton of web dev</>",
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
     },
     {
       title: "CSS",
       content: "Cascading Styling Sheet",
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
     },
     {
       title: "JavaScript",
       content: "React, Next, Vue, Nuxt",
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
     },
     {
       image: "/assets/me.jpg",
