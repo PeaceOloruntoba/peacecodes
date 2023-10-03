@@ -13,33 +13,33 @@ const cardData = [
     },
     {
       title: "JavaScript",
-      content: "CEO at Google",
+      content: "React, Next, Vue, Nuxt",
       image: "/assets/me.jpg",
     },
     {
       image: "/assets/me.jpg",
       title: "TypeScript",
-      content: "CEO at Microsoft",
+      content: "Next, Angular",
     },
     {
       image: "/assets/me.jpg",
       title: "Python",
-      content: "CEO at Microsoft",
+      content: "Django, Flask",
     },
     {
       image: "/assets/me.jpg",
       title: "PHP",
-      content: "CEO at Microsoft",
+      content: "Core PHP, Laravel",
     },
     {
       image: "/assets/me.jpg",
       title: "Flutter",
-      content: "CEO at Microsoft",
+      content: "Cross-platform development",
     },
     {
       image: "/assets/me.jpg",
       title: "C/C++",
-      content: "CEO at Microsoft",
+      content: "Software Development",
     },
   ];
 
