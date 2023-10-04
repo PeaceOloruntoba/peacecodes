@@ -8,7 +8,7 @@ interface CardProps {
 
 const Lang: React.FC<CardProps> = ({ title, content, image }) => {
   return (
-    <div className="p-6 rounded-lg shadow-lg text-center group border shadow ">
+    <div className="p-6 rounded-lg shadow-lg text-center group border  ">
       <img src={image} alt={title} className="w-56 h-44 mx-auto rounded-lg" />
       <div className='bottom-0'>
       <p className="text-2xl font-semibold mt-2 text-slate-800 dark:text-zinc-300">{title}</p>
