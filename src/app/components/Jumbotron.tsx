@@ -11,7 +11,7 @@ export default function Jumbotron() {
             <div className="p-4 rounded-xl shadow-md shadow-blue-900 block lg:hidden md:block">
                 <Image src={me} alt="Jumbotron" className="rounded-xl" />
             </div>
-                <h2 className="text-lg font-semibold text-zinc-600 mb-8">👨‍💻 Aspiring Software Engineer | 🌐 Web Developer | 📱 Mobile App Developer | 💎 Blockchain Enthusiast | 🚀 Aspiring Innovator </h2>
+                <h2 className="text-md font-semibold text-zinc-600 mb-8 mt-1">👨‍💻 Aspiring Software Engineer | 🌐 Web Developer | 📱 Mobile App Developer | 💎 Blockchain Enthusiast | 🚀 Aspiring Innovator | 📈 Forex Trader</h2>
                 <p className="text-xl font-semibold text-slate-800 dark:text-zinc-300 mb-8">I&apos;m a dedicated Computer Science student at Anchor University, Lagos, with a two-year journey in web and mobile development. I thrive on challenges and relentlessly pursue knowledge in the ever-evolving IT landscape. Recently, I&apos;ve ventured into blockchain development.</p>
                 <p className="text-xl font-semibold text-slate-800 dark:text-zinc-300">I&apos;m passionate about using technology to shape the future. Whether crafting web apps, diving into mobile development, or exploring blockchain&apos;s potential, I&apos;m committed to creating meaningful solutions. Join me in this innovative journey, where we harness technology for a brighter future.</p>
             </div>
