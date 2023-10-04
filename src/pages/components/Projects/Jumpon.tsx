@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Lang from "./Lang";
 
 const cardData = [
@@ -47,12 +48,13 @@ export default function Jumpon(){
     return(
         <div>
             <h1 className="text-4xl font-semibold text-slate-800 dark:text-zinc-300">Folio:</h1>
-            <p className="text-lg fint-semibold text-slate-800 dark:text-zinc-300">I am an expert using the following development tools:</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <p className="text-lg py-1 text-slate-700 dark:text-zinc-400">Here are some interesting projects I've worked on:</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
             {cardData.map((card, index) => (
             <Lang key={index} title={card.title} content={card.content} image={card.image} />
             ))}
             </div>
+            <p className="py-3 text-slate-700 dark:text-zinc-400 text-lg">You can find some more projects I've worked on <Link href="https://github.com/PeaceOloruntoba" className="text-purple-500">here</Link>.</p>
         </div>
     )
 }
