@@ -3,7 +3,7 @@ import Lang from "./Lang";
 const cardData = [
     {
       title: "HTML",
-      content: "<>The skeleton of web dev</>",
+      content: "</>",
       image: "/assets/me.png",
     },
     {
@@ -34,7 +34,7 @@ const cardData = [
     {
       image: "/assets/me.png",
       title: "Flutter",
-      content: "Cross-platform development",
+      content: "Cross-platform dev",
     },
     {
       image: "/assets/me.png",
