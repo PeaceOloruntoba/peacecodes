@@ -4,42 +4,57 @@ const cardData = [
     {
       title: "HTML",
       content: "<>The skeleton of web dev</>",
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
     },
     {
       title: "CSS",
       content: "Cascading Styling Sheet",
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
     },
     {
       title: "JavaScript",
       content: "React, Next, Vue, Nuxt",
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
     },
     {
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
       title: "TypeScript",
       content: "Next, Angular",
     },
     {
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
       title: "Python",
       content: "Django, Flask",
     },
     {
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
       title: "PHP",
       content: "Core PHP, Laravel",
     },
     {
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
       title: "Flutter",
       content: "Cross-platform development",
     },
     {
-      image: "/assets/me.jpg",
+      image: "/assets/me.png",
+      title: "Kotlin",
+      content: "Android Development",
+    },
+    {
+      image: "/assets/me.png",
       title: "C/C++",
       content: "Software Development",
+    },
+    {
+      image: "/assets/me.png",
+      title: "Golang",
+      content: "Software Development",
+    },
+    {
+      image: "/assets/me.png",
+      title: "Solidity",
+      content: "Blockchain Development",
     },
   ];
 
@@ -48,7 +63,7 @@ export default function Jumpon(){
         <div>
             <h1 className="text-4xl font-semibold text-slate-800 dark:text-zinc-300">Skills and Expertise:</h1>
             <p>I am an expert using the following development tools:</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-center">
             {cardData.map((card, index) => (
             <Lang key={index} title={card.title} content={card.content} image={card.image} />
             ))}
