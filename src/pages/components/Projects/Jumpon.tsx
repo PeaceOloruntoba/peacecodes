@@ -32,16 +32,6 @@ const cardData = [
       title: "PHP",
       content: "Core PHP, Laravel",
     },
-    {
-      image: "/assets/me.jpg",
-      title: "Flutter",
-      content: "Cross-platform development",
-    },
-    {
-      image: "/assets/me.jpg",
-      title: "C/C++",
-      content: "Software Development",
-    },
   ];
 
 export default function Jumpon(){
