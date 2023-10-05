@@ -1,5 +1,6 @@
 import Image from "next/image";
 import about from "../../app/assets/aboutme.jpeg"
+import Link from "next/link";
 
 
 export default function ContactHome(){
@@ -11,7 +12,10 @@ export default function ContactHome(){
                     <Image src={about} alt="Contact" />
                 </div>
                 <div>
-                    Social Icons
+                    <span className="">
+                        
+                    </span>
+                    <Link href="/Contact"><button>Contact Me</button></Link>
                 </div>
             </div>
         </div>
