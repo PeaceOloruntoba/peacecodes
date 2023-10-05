@@ -16,7 +16,7 @@ export default function ContactHome(){
                     <span className="">
                         <RiTwitterXFill />
                     </span>
-                    <Link href="/Contact"><button>Contact Me</button></Link>
+                    <Link href="/Contact"><button className="bg-gradient-r">Contact Me</button></Link>
                 </div>
             </div>
         </div>
