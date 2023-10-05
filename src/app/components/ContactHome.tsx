@@ -1,6 +1,7 @@
 import Image from "next/image";
 import about from "../../app/assets/aboutme.jpeg"
 import Link from "next/link";
+import {RiTwitterXFill} from "react-icons/ri"
 
 
 export default function ContactHome(){
@@ -13,7 +14,7 @@ export default function ContactHome(){
                 </div>
                 <div>
                     <span className="">
-                        
+                        <RiTwitterXFill />
                     </span>
                     <Link href="/Contact"><button>Contact Me</button></Link>
                 </div>
