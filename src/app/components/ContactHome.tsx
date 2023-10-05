@@ -19,7 +19,7 @@ export default function ContactHome(){
 
                     </span>
                     <Link href="/Contact"><button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold p-4 text-xl px-10 rounded-lg">Contact Me</button></Link>
-                    <p>Let's discuss business!!</p>
+                    <p>Let&apos;s discuss business!!</p>
                 </div>
             </div>
         </div>
