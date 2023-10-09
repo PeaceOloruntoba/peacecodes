@@ -1,4 +1,7 @@
-export default function Jumpon(){
-  
-
+export default function Jumpon(){  
+  return(
+    <div>
+      Contact Jumpon
+    </div>
+  )
 }
