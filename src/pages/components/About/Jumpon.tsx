@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import about from "../../../app/assets/aboutme.jpeg";
+import Lang from "./Lang";
 
 export default function Jumpon(){
     return(
@@ -21,7 +22,7 @@ export default function Jumpon(){
             <hr className="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 h-1"/>
             </div>
             <div className="p-16 grid gap-5 items-center justify-center px-10">
-                Experience: 
+                <Lang />
             </div>
         </div>
         </div>
