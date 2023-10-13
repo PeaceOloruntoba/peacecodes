@@ -16,7 +16,6 @@ export default function ContactHome(){
                         <Link href="https://wa.me/+2348166846226" target="_blank"><RiWhatsappFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
                         <Link href="https://www.linkedin.com/in/peace-oloruntoba-3a003527a/" target="_blank"><RiLinkedinBoxFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
                         <Link href="https://twitter.com/PeaceEdgeTech" target="_blank"><RiFacebookBoxFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
-
                     </span>
                     <div className="grid items-center justify-center py-10">
                     <Link href="/Contact"><button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold p-4 text-xl px-10 rounded-lg">Contact Me</button></Link>

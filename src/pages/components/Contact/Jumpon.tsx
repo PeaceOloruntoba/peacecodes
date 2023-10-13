@@ -17,6 +17,9 @@ export default function Jumpon(){
             <p>Peace Oloruntoba</p>
             <p>Full-Stack Web Developer / Aspiring Software Engineer</p>
             <p>Please fill the form to send me an official mail,<br />and anticipate a response within 24hrs</p>
+            <span>
+              
+            </span>
         </div>
         <div className=" p-2">
           <form action="" className="text-slate-800 dark:text-zinc-300 font-semibold">
@@ -40,7 +43,7 @@ export default function Jumpon(){
               </div>
               <div className="grid p-2">
             <label htmlFor="">Message:</label>
-            <textarea name="" id="" cols="30" rows="10" className="bg-transparent border rounded-xl p-2">Hi,</textarea>
+            <textarea name="" id="" className="h-36 bg-transparent border border-slate-600 outline-none rounded-lg p-2">Hi,</textarea>
               </div>
               <div className="p-2">
                 <button type="submit" className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-blue-500 p-2 w-full rounded-xl font-semibold text-lg ease-in-out duration-300 text-slate-200">Send Message</button>
