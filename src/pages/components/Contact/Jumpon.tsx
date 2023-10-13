@@ -23,27 +23,27 @@ export default function Jumpon(){
             <div className="flex">
               <div className="grid p-2">
             <label htmlFor="">Name:</label>
-            <input type="text" className="bg-transparent border rounded-xl p-2" />
+            <input type="text" className="bg-transparent border border-slate-600 outline-none rounded-lg p-2" />
               </div>
               <div className="grid p-2">
             <label htmlFor="">Phone Number:</label>
-            <input type="tel" className="bg-transparent border rounded-xl p-2" />
+            <input type="tel" className="bg-transparent border border-slate-600 outline-none rounded-lg p-2" />
               </div>
             </div>
               <div className="grid p-2">
             <label htmlFor="">Email:</label>
-            <input type="email" className="bg-transparent border rounded-xl p-2" />
+            <input type="email" className="bg-transparent border border-slate-600 outline-none rounded-lg p-2" />
               </div>
               <div className="grid p-2">
             <label htmlFor="">Subject:</label>
-            <input type="text" className="bg-transparent border rounded-xl p-2" />
+            <input type="text" className="bg-transparent border border-slate-600 outline-none rounded-lg p-2" />
               </div>
               <div className="grid p-2">
             <label htmlFor="">Message:</label>
             <textarea name="" id="" cols="30" rows="10" className="bg-transparent border rounded-xl p-2">Hi,</textarea>
               </div>
               <div className="p-2">
-                <button type="submit" className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-blue-500 p-2 w-full rounded-xl font-semibold text-lg ease-in-out duration-300">Send Message</button>
+                <button type="submit" className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-blue-500 p-2 w-full rounded-xl font-semibold text-lg ease-in-out duration-300 text-slate-200">Send Message</button>
               </div>
           </form>
         </div>
