@@ -4,8 +4,8 @@ import Link from "next/link";
 import { RiTwitterXFill, RiWhatsappFill, RiLinkedinBoxFill, RiFacebookBoxFill } from "react-icons/ri"
 
 
-export default function ContactHome(){
-    return(
+export default function ContactHome() {
+    return (
         <div className="grid items-center justify-center p-10">
             <h1 className="font-bold text-4xl text-slate-800 dark:text-zinc-300">Contact:</h1>
             <div className="px-16 rounded-xl shadow shadow-blue-600 mt-4">
@@ -18,8 +18,8 @@ export default function ContactHome(){
                         <Link href="https://twitter.com/PeaceEdgeTech" target="_blank"><RiFacebookBoxFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
                     </span>
                     <div className="grid items-center justify-center py-10">
-                    <Link href="/Contact"><button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold p-4 text-xl px-10 rounded-lg">Contact Me</button></Link>
-                    <p className="text-slate-600 dark:text-zinc-500 py-3 text-lg">Let&apos;s discuss business!!</p>
+                        <Link href="/Contact"><button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold p-4 text-xl px-10 rounded-lg">Contact Me</button></Link>
+                        <p className="text-slate-600 dark:text-zinc-500 py-3 text-lg">Let&apos;s discuss business!!</p>
                     </div>
                 </div>
             </div>
