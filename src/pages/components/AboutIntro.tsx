@@ -1,7 +1,7 @@
 import Jumpon from "./About/Jumpon";
 
 export default function AboutIntro() {
-    return(
+    return (
         <div>
             <Jumpon />
         </div>

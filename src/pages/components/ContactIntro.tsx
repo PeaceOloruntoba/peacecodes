@@ -3,7 +3,7 @@ import me from "../../app/assets/2021me.jpg"
 import Jumpon from "./Contact/Jumpon";
 
 export default function ContactIntro() {
-    return(
+    return (
         <div>
             <Jumpon />
         </div>

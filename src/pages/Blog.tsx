@@ -8,18 +8,18 @@ import Head from "next/head";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Blog() {
-    return(
+    return (
         <>
-        <div className={inter.className}>
-        <Head>
-        <title>Peace Oloruntoba - Blog</title>
-      </Head>
-        <div className="text-slate-800">
-            <Navbar />
-            <BlogIntro />
-            <Footer />
-        </div>
-        </div>
+            <div className={inter.className}>
+                <Head>
+                    <title>Peace Oloruntoba - Blog</title>
+                </Head>
+                <div className="text-slate-800">
+                    <Navbar />
+                    <BlogIntro />
+                    <Footer />
+                </div>
+            </div>
         </>
     )
 }
