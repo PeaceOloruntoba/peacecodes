@@ -19,6 +19,14 @@ export default function Jumpon(){
             <p>Please fill the form to send me an official mail,<br />and anticipate a response within 24hrs</p>
             <span>
               
+            <p className="text-slate-800 dark:text-zinc-300 py-3 text-xl font-semibold">You can reach me through the following means:</p>
+                    <span className="text-slate-800 dark:text-zinc-300 py-2 text-2xl font-semibold flex items-center justify-around">
+                        <Link href="https://twitter.com/PeaceEdgeTech" target="_blank"><RiTwitterXFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
+                        <Link href="https://wa.me/+2348166846226" target="_blank"><RiWhatsappFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
+                        <Link href="https://www.linkedin.com/in/peace-oloruntoba-3a003527a/" target="_blank"><RiLinkedinBoxFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
+                        <Link href="https://twitter.com/PeaceEdgeTech" target="_blank"><RiFacebookBoxFill className="hover:text-3xl cursor-pointer ease-in-out duration-300" /></Link>
+
+                    </span>
             </span>
         </div>
         <div className=" p-2">
