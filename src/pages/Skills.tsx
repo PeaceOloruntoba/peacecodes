@@ -1,5 +1,5 @@
-import Footer from "@/app/components/Footer";
 import "../app/globals.css"
+import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
 import { Inter } from 'next/font/google'
 import SkillsIntro from "./components/SkillsIntro";
