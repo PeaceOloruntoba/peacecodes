@@ -1,11 +1,11 @@
-;
-export default function () {
+
+export default function Lang() {
     return (
         <div>
             <div>
                 <p className="text-3xl font-semibold">Experience:</p>
                 <div>
-                    Over the years, I've been opportuned to work in a few number of industries of which includes
+                    Over the years, I&apos;ve been opportuned to work in a few number of industries of which includes
                 </div>
                 <ol className="relative border-l border-slate-400 dark:border-gray-700 mt-14">
                     <li className="mb-10 ml-6">
@@ -39,7 +39,7 @@ export default function () {
                         <p className="font-normal text-gray-700 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
                     </li>
                 </ol>
-                <p className="mt-20 text-lg text-slate-800 dark:text-zinc-300">All this positions I commuted to remotely, working with a number of teams thereby explaining that I'm a great team player</p>
+                <p className="mt-20 text-lg text-slate-800 dark:text-zinc-300">All this positions I commuted to remotely, working with a number of teams thereby explaining that I&apos;m a great team player</p>
 
             </div>
         </div>
