@@ -6,7 +6,7 @@ import {BsGit} from "react-icons/bs"
 
 export default function Lang(){
   return (
-      <div className="grid text-slate-800 dark:text-zinc-300 gap-8 mt-10 text-xl items-center justify-center">
+      <div className="grid text-slate-800 dark:text-zinc-300 gap-8 mt-10 text-xl items-center justify-center px-0 md:px-72 lg:px-72">
        <div className="flex gap-8 items-center justify-center">
         {/* Web Development Skills */}
         <div className="text-center">
