@@ -12,8 +12,8 @@ export default function Jumpon() {
           <div className="grid gap-5 items-center justify-center text-center">
             <h2 className="text-4xl font-semibold text-slate-800 dark:text-zinc-300">Contact me:</h2>
           </div>
-          <div className="flex">
-            <div className="p-2 grid text-slate-800 dark:text-zinc-300 text-xl">
+          <div className="grid lg:flex">
+            <div className="p-12 grid text-slate-800 dark:text-zinc-300 text-xl">
               <Image src={about} alt="Jumbotron" className="rounded-xl w-96" />
               <p>Peace Oloruntoba</p>
               <p>Full-Stack Web Developer / Aspiring Software Engineer</p>
@@ -31,7 +31,7 @@ export default function Jumpon() {
               </span>
             </div>
             <div className=" p-2">
-              <form action="" className="text-slate-800 dark:text-zinc-300 font-semibold">
+              <form action="" className="text-slate-800 dark:text-zinc-300 font-semibold p-16">
                 <div className="flex">
                   <div className="grid p-2">
                     <label htmlFor="">Name:</label>
@@ -52,7 +52,7 @@ export default function Jumpon() {
                 </div>
                 <div className="grid p-2">
                   <label htmlFor="">Message:</label>
-                  <textarea name="" id="" className="h-36 bg-transparent border border-slate-600 outline-none rounded-lg p-2">Hi,</textarea>
+                  <textarea name="" id="" className="h-36 bg-transparent border border-slate-600 outline-none rounded-lg p-2" placeholder="Hi ..."></textarea>
                 </div>
                 <div className="p-2">
                   <button type="submit" className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-blue-500 p-2 w-full rounded-xl font-semibold text-lg ease-in-out duration-300 text-slate-200">Send Message</button>

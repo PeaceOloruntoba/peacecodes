@@ -32,7 +32,7 @@ export default function Blogging() {
                 </div>
                 <div className="flex items-center justify-center">
                     <Link href="/Blog">
-                        <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold p-4 text-xl px-10 rounded-lg">More &gt;&gt;</button>
+                        <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold p-4 text-xl px-10 rounded-lg hover:from-pink-500 hover:via-purple-500 hover:to-blue-500">More &gt;&gt;</button>
                     </Link>
                 </div>
             </div>

@@ -44,7 +44,7 @@ export default function Jumpon() {
           <Lang key={index} title={card.title} content={card.content} image={card.image} />
         ))}
       </div>
-      <p className="py-3 text-slate-700 dark:text-zinc-400 text-lg">You can find some more projects I&apos;ve worked on <Link href="https://github.com/PeaceOloruntoba" className="text-purple-500">here</Link>.</p>
+      <p className="py-3 text-slate-700 dark:text-zinc-400 text-lg">You can find some more projects I&apos;ve worked on <Link href="https://github.com/PeaceOloruntoba" target="_blank" className="text-purple-500">here</Link>.</p>
     </div>
   )
 }
