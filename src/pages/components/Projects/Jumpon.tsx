@@ -3,34 +3,34 @@ import Lang from "./Lang";
 
 const cardData = [
   {
-    title: "HTML",
-    content: "<>The skeleton of web dev</>",
+    title: "Student Study Portal",
     image: "/assets/me.png",
+    content: "Python, Django, SQLite",
   },
   {
-    title: "CSS",
-    content: "Cascading Styling Sheet",
+    title: "Easing Life Website",
     image: "/assets/me.png",
+    content: "TypeScript, NextJS, TailwindCSS",
   },
   {
-    title: "JavaScript",
-    content: "React, Next, Vue, Nuxt",
+    title: "Easy Ride",
     image: "/assets/me.png",
+    content: "Flutter, Next, TailwindCSS",
   },
   {
+    title: "Gym Management System",
     image: "/assets/me.jpg",
-    title: "TypeScript",
-    content: "Next, Angular",
+    content: "Python, Django, Redux",
   },
   {
+    title: "Easy Food Order Website",
     image: "/assets/me.jpg",
-    title: "Python",
-    content: "Django, Flask",
+    content: "JavaScript, React, NodeJS",
   },
   {
+    title: "Real Estate Management System",
     image: "/assets/me.jpg",
-    title: "PHP",
-    content: "Core PHP, Laravel",
+    content: "PHP, Laravel, Symphony",
   },
 ];
 
