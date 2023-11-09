@@ -10,7 +10,7 @@ export default function Intro() {
             <div className="bg-slate-200 dark:bg-slate-950 rounded-xl">
                 <Jumbotron />
                 <HomeAbout />
-                <Blogging />
+                {/* <Blogging /> */}
                 <ContactHome />
             </div>
         </div>
