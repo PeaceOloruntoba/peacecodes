@@ -6,7 +6,7 @@ import { RiFacebookBoxFill, RiLinkedinBoxFill, RiTwitterXFill, RiWhatsappFill } 
 
 export default function Jumpon() {
   return (
-    <div className="flex justify-around items-center lg:px-20 md:px-12 sm:px-6 bg-slate-300 dark:bg-gray-950">
+    <div className="flex justify-around items-center lg:px-20 md:px-12 sm:px-6 bg-slate-300 dark:bg-gray-950 overflow-hidden">
       <div className="bg-slate-200 dark:bg-slate-950 rounded-xl">
         <div className="p-16 px-10 grid gap-5 items-center justify-center">
           <div className="grid gap-5 items-center justify-center text-center">

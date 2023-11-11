@@ -16,7 +16,7 @@ export default function Blog() {
                 <div className="text-slate-800">
                     <Navbar />
                     <div className="grid bg-slate-300 px-32 dark: dark:bg-gray-950">
-                        <div className="grid text-slate-800 dark:text-zinc-300 bg-slate-200 dark:bg-slate-950 font-semibold text-4xl px-12 py-80 rounded-xl">
+                        <div className="grid text-slate-800 dark:text-zinc-300 bg-slate-200 dark:bg-slate-950 font-semibold text-4xl px-12 py-96 rounded-xl">
                             <span>Blog:</span>
                             <span>Coming Soon...</span>
                         </div>
