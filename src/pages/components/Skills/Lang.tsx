@@ -7,7 +7,7 @@ import {BsGit} from "react-icons/bs"
 export default function Lang(){
   return (
       <div className="grid text-slate-800 dark:text-zinc-300 gap-8 mt-10 text-xl items-center justify-center px-0 md:px-72 lg:px-72">
-       <div className="flex gap-8 items-center justify-center">
+       <div className="flex gap-8 items-center justify-center flex-wrap">
         {/* Web Development Skills */}
         <div className="text-center">
           <FaHtml5 className="text-6xl mx-auto mb-2 text-red-500" /><p>HTML5</p>
@@ -29,7 +29,7 @@ export default function Lang(){
         </div>
         </div> 
 
-        <div className='flex gap-8 items-center justify-center'>
+        <div className='flex gap-8 items-center justify-center flex-wrap'>
         {/* Backend Development Skills */}
         <div className="text-center">
           <FaPhp className="text-6xl mx-auto mb-2 text-purple-700" />
@@ -56,7 +56,7 @@ export default function Lang(){
         </div>
         </div>
         
-        <div className='flex gap-8 items-center justify-center'>
+        <div className='flex gap-8 items-center justify-center flex-wrap'>
         {/* Mobile App Development Skills */}
         <div className="text-center">
           <FaAndroid className="text-6xl mx-auto mb-2 text-green-500" />
@@ -68,7 +68,7 @@ export default function Lang(){
         </div>
         </div>
 
-        <div className='flex gap-8 items-center justify-center'>
+        <div className='flex gap-8 items-center justify-center flex-wrap'>
         {/* Tools and Platforms */}
         <div className="text-center">
           <BsGit className="text-6xl mx-auto mb-2 text-red-500" />
