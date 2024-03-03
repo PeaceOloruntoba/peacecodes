@@ -45,8 +45,16 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <div>
-            Theme-Toggle
+          <div className='dark:bg-slate-800 bg-gray-100 rounded'>
+            {/* <button className='absolute rounded-full w-16 h-16 top-6 right-16 bg-slate-900 dark:bg-slate-300 text-white dark:text-black font-semibold' onClick={toggleDarkMode}>{darkMode? "LHT" : "DRK"}</button> */}
+            {
+              options?.map(opt=>(
+            <button key={opt.text} onClick={()=>setTheme(opt.text)} className={`text-2xl rounded-full m-2 ${theme === opt.text && "text-sky-600"}`}>
+               {opt.icon}
+            </button>
+
+              ))
+            }
           </div>
           <div className="lg:hidden">
             <button className="text-slate-800 dark:text-zinc-300 hover:text-blue-600 ease-in duration-300 focus:outline-none" onClick={toggleSidebar}>
