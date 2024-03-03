@@ -2,7 +2,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Header from "./Header";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { IoSunnyOutline, IoMoon, IoDesktopOutline } from "react-icons/io5";
 
 export default function Navbar() {
   const pathname = usePathname();
